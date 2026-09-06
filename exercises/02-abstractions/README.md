@@ -14,4 +14,4 @@ Tervezz cserélhető tároló interfészt és egy memóriabeli implementációt;
 
 A konkrét feladat majd a `pluggable-storage/` almappába kerül, a [feladatsablon](../TEMPLATE.md) alapján.
 
-[Kapcsolódó tudásanyag](../../knowledge/02-abstractions.md) · [Összes gyakorlat](../README.md)
+[Kapcsolódó tudásanyag](../../knowledge/senior-python/README.md#4-típusok-és-interfészek) · [Összes gyakorlat](../README.md)
