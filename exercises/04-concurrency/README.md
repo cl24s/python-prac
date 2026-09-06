@@ -14,4 +14,4 @@ Dolgozz fel feladatokat korlátozott párhuzamossággal; legyen timeout, megszak
 
 A konkrét feladat majd a `bounded-workers/` almappába kerül, a [feladatsablon](../TEMPLATE.md) alapján.
 
-[Kapcsolódó tudásanyag](../../knowledge/04-concurrency.md) · [Összes gyakorlat](../README.md)
+[Kapcsolódó tudásanyag](../../knowledge/senior-python/README.md#6-concurrency-és-párhuzamos-végrehajtás) · [Összes gyakorlat](../README.md)
