@@ -14,4 +14,4 @@
 
 A konkrét feladat majd a `test-a-parser/` almappába kerül, a [feladatsablon](../TEMPLATE.md) alapján.
 
-[Kapcsolódó tudásanyag](../../knowledge/05-testing.md) · [Összes gyakorlat](../README.md)
+[Kapcsolódó tudásanyag](../../knowledge/senior-python/README.md#7-tesztelés-és-kódminőség) · [Összes gyakorlat](../README.md)
