@@ -14,4 +14,4 @@ Tervezz nagy bemenetet feldolgozó összesítést; mérd a memóriaigényt és a
 
 A konkrét feladat majd a `streaming-aggregation/` almappába kerül, a [feladatsablon](../TEMPLATE.md) alapján.
 
-[Kapcsolódó tudásanyag](../../knowledge/06-performance.md) · [Összes gyakorlat](../README.md)
+[Kapcsolódó tudásanyag](../../knowledge/senior-python/README.md#12-teljesítmény-és-hibakeresés) · [Összes gyakorlat](../README.md)
