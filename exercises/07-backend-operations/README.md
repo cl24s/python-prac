@@ -14,4 +14,4 @@ Tervezz HTTP-klienst timeouttal és korlátozott retry-val; határozd meg, mely 
 
 A konkrét feladat majd a `reliable-http-call/` almappába kerül, a [feladatsablon](../TEMPLATE.md) alapján.
 
-[Kapcsolódó tudásanyag](../../knowledge/07-backend-operations.md) · [Összes gyakorlat](../README.md)
+[Kapcsolódó tudásanyag](../../knowledge/senior-python/README.md#8-http-és-backend-alapok) · [Összes gyakorlat](../README.md)
