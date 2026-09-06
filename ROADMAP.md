@@ -9,6 +9,13 @@
 
 A fájlok létrejötte nem jelent tanulási haladást.
 
+## Kibővített tananyag
+
+- [Senior Python tudástérkép](knowledge/senior-python/README.md): a teljes, 14 témakörös tartalomterv.
+- OOP és objektumtervezés: önálló, kiemelt fejezetként kidolgozandó.
+- FastAPI: kötelező, önálló fejezetként kidolgozandó; a job processing API-ban gyakoroljuk.
+- A következő táblázat a meglévő témavázakat követi; a kibővített terv részletes fejezetei még nem készültek el.
+
 ## Tudás és gyakorlatok
 
 | Téma | Tudás | Gyakorlat | Megjegyzés |
@@ -31,11 +38,11 @@ A fájlok létrejötte nem jelent tanulási haladást.
 
 ## Javasolt sorrend
 
-1. Nyelvi alapok, absztrakciók, hibakezelés; a tesztelés alapjait már az első gyakorlatokhoz használjuk.
+1. Nyelvi alapok, OOP és objektumtervezés, típusok és interfészek, hibakezelés; a tesztelés alapjait már az első gyakorlatokhoz használjuk.
 2. Logelemző CLI és a tesztelési téma részletes áttekintése.
 3. Concurrency és a backend téma HTTP/timeout része, majd endpoint checker.
 4. Teljesítménymérés a meglévő megoldásokon.
-5. Backend további részei, majd job processing API.
+5. FastAPI önálló feldolgozása, adatbázisok és a backend további részei, majd job processing API.
 
 ## Aktuális munkamenet
 
@@ -48,3 +55,4 @@ A fájlok létrejötte nem jelent tanulási haladást.
 | Dátum | Elvégzett munka | Tanulság / következő lépés |
 | --- | --- | --- |
 | 2026-09-06 | Induló Markdown-struktúra elkészült | Tanulás még nem kezdődött; első téma következik |
+| 2026-09-06 | Senior Python témalista rögzítve; OOP és FastAPI külön kiemelve | Részletes kidolgozás még tervezett; első téma következik |
