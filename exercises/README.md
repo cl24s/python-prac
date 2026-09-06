@@ -11,3 +11,10 @@ Rövid, egy témára koncentráló feladatok. Az induló leírások feladatváza
 - [Backend és üzemeltetés](07-backend-operations/README.md)
 
 Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás README.md, a kód és a tesztek később kerülnek mellé. Kész megoldás alapból nincs mellékelve.
+
+## Kidolgozott feladatsorok
+
+- [Senior Python: nyelvi alapok — B01–B06](senior-python/01-python-basics.md)
+- [Senior Python: adatszerkezetek — D01–D06](senior-python/02-data-structures.md)
+
+Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.

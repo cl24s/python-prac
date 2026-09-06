@@ -1,8 +1,13 @@
 # Senior Python fejlesztő – tudástérkép
 
-Állapot: tervezett tananyag; a témalista elkészült, a részletes fejezetek még kidolgozandók.
+Állapot: a 14 témakörös tervből az első két témakör kidolgozott első változata elkészült (8 + 6 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
 
 Cél: senior Python backend/platform interjúkra felkészülni. Minden témánál tudni kell, hogyan működik, mikor használnád, milyen hibákhoz vezethet, és hogyan ellenőriznéd.
+
+## Elkészült témakörök
+
+- [1. Python működése és nyelvi alapok](01-python-basics/README.md) — 8 fejezet, 6 önálló feladat.
+- [2. Adatszerkezetek és algoritmikus gondolkodás](02-data-structures/README.md) — 6 fejezet, 6 önálló feladat.
 
 ## 1. Python működése és nyelvi alapok
 
@@ -169,7 +174,7 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 - Ez a fájl a teljes tervezett tartalom áttekintése; nem elsajátítási igazolás.
 - A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek ide kerülnek majd, külön OOP- és FastAPI-résszel.
 - Minden fejezet: működés → használati helyzet → példa → tipikus hibák → angol interjúkérdések → gyakorlat.
-- Következő lépés: a nyelvi alapok részletes kidolgozása és az első gyakorlat pontosítása.
+- Következő lépés: az első két témakör stílusának és mélységének áttekintése, majd önálló gyakorlás; a következő kidolgozandó témakör az OOP.
 - Nem cél minden framework, metaclass-trükk vagy a teljes standard library fejből ismerete.
 
 [Vissza a repó áttekintéséhez](../../README.md) · [Haladáskövetés](../../ROADMAP.md)
