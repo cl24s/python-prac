@@ -19,6 +19,6 @@ Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorl
 
 ## Jelenlegi állapot
 
-A senior-python tudástérképben 14 témakörös tartalomterv található. Az [első témakör](knowledge/senior-python/01-python-basics/README.md) 8, a [második](knowledge/senior-python/02-data-structures/README.md) 6 részletes fejezetet kapott, összesen 29 ellenőrzött Python-kódpéldával és 12 önálló feladattal. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
+A senior-python tudástérképben 14 témakörös tartalomterv található. Az [első témakör](knowledge/senior-python/01-python-basics/README.md) 8, a [második](knowledge/senior-python/02-data-structures/README.md) 6 részletes fejezetet kapott, összesen 29 ellenőrzött Python-kódpéldával és 12 önálló feladattal. Az [OOP](knowledge/senior-python/03-oop/README.md) további 7, a [típusok és interfészek](knowledge/senior-python/04-types-and-interfaces/README.md) 6 fejezetet, 21 új ellenőrzött kódpéldát és 12 új önálló feladatot kapott. Így összesen 27 fejezet és 24 feladat áll rendelkezésre. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
 
 A dokumentáció magyar; a kód, azonosítók és interjúkérdések angol nyelvűek. Minden dokumentum Markdown (`.md`). A futtatókörnyezet és a függőségek a tényleges kódolás kezdetén kerülnek rögzítésre.

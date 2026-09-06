@@ -17,8 +17,8 @@ A [Senior Python tudástérkép](knowledge/senior-python/README.md) az egyetlen 
 | --- | --- | --- |
 | [Python működése és nyelvi alapok](knowledge/senior-python/01-python-basics/README.md) | kidolgozott első változat | tervezett |
 | [Adatszerkezetek és algoritmikus gondolkodás](knowledge/senior-python/02-data-structures/README.md) | kidolgozott első változat | tervezett |
-| [OOP és objektumtervezés — kiemelt témakör](knowledge/senior-python/README.md#3-oop-és-objektumtervezés--kiemelt-témakör) | tervezett | tervezett |
-| [Típusok és interfészek](knowledge/senior-python/README.md#4-típusok-és-interfészek) | tervezett | tervezett |
+| [OOP és objektumtervezés — kiemelt témakör](knowledge/senior-python/03-oop/README.md) | kidolgozott első változat | tervezett |
+| [Típusok és interfészek](knowledge/senior-python/04-types-and-interfaces/README.md) | kidolgozott első változat | tervezett |
 | [Hibakezelés és erőforrás-kezelés](knowledge/senior-python/README.md#5-hibakezelés-és-erőforrás-kezelés) | tervezett | tervezett |
 | [Concurrency és párhuzamos végrehajtás](knowledge/senior-python/README.md#6-concurrency-és-párhuzamos-végrehajtás) | tervezett | tervezett |
 | [Tesztelés és kódminőség](knowledge/senior-python/README.md#7-tesztelés-és-kódminőség) | tervezett | tervezett |
@@ -30,7 +30,7 @@ A [Senior Python tudástérkép](knowledge/senior-python/README.md) az egyetlen 
 | [Csomagolás, biztonság és üzemeltetés](knowledge/senior-python/README.md#13-csomagolás-biztonság-és-üzemeltetés) | tervezett | tervezett |
 | [Senior szintű tervezés és együttműködés](knowledge/senior-python/README.md#14-senior-szintű-tervezés-és-együttműködés) | tervezett | tervezett |
 
-Az első két témához [Python alapok](exercises/senior-python/01-python-basics.md) és [adatszerkezetek](exercises/senior-python/02-data-structures.md) feladatsor készült, konkrét elfogadási feltételekkel. A régebbi [gyakorlatötletek](exercises/README.md) továbbra is vázak. A tananyag elkészülte nem változtatja készre az elsajátítás állapotát.
+Az első két témához [Python alapok](exercises/senior-python/01-python-basics.md) és [adatszerkezetek](exercises/senior-python/02-data-structures.md) feladatsor készült, konkrét elfogadási feltételekkel. Az [OOP](exercises/senior-python/03-oop.md) és a [típusok és interfészek](exercises/senior-python/04-types-and-interfaces.md) témához is 6–6 konkrét feladat készült. A régebbi [gyakorlatötletek](exercises/README.md) továbbra is vázak. A tananyag elkészülte nem változtatja készre az elsajátítás állapotát.
 
 ## Projektek
 
@@ -51,7 +51,7 @@ Az első két témához [Python alapok](exercises/senior-python/01-python-basics
 ## Aktuális munkamenet
 
 - Aktív feladat: még nincs.
-- Következő lépés: az első két témakör anyagának közös áttekintése, majd a B01 feladat önálló megoldása; a következő kidolgozandó téma az OOP.
+- Következő lépés: az első négy témakör tanulása és a megfelelő önálló feladatok megoldása; a következő kidolgozandó téma az 5. Hibakezelés és erőforrás-kezelés.
 - Elakadás: nincs rögzítve.
 
 ## Munkamenetnapló
@@ -62,3 +62,4 @@ Az első két témához [Python alapok](exercises/senior-python/01-python-basics
 | 2026-09-06 | Senior Python témalista rögzítve; OOP és FastAPI külön kiemelve | Részletes kidolgozás még tervezett; első téma következik |
 | 2026-09-06 | Külső knowledge-témavázak eltávolítva; egyetlen senior-python tananyagstruktúra maradt | Hivatkozások és haladáskövetés az egységes tervhez igazítva |
 | 2026-09-06 | Első két témakör kidolgozva: 14 fejezet, 29 ellenőrzött kódblokk, 12 önálló feladat | CPython 3.12.13; a tanulási állapot továbbra is tervezett; stílus/mélység áttekintése következik |
+| 2026-09-06 | OOP és típusok kidolgozva: 13 új fejezet, 21 futtatott kódblokk, 12 önálló feladat | 13 típusos blokk ellenőrizve mypy strict módban, ebből 2 elvárt negatív minta; elsajátítás továbbra is tervezett |

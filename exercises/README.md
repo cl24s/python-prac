@@ -17,4 +17,7 @@ Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás
 - [Senior Python: nyelvi alapok — B01–B06](senior-python/01-python-basics.md)
 - [Senior Python: adatszerkezetek — D01–D06](senior-python/02-data-structures.md)
 
+- [Senior Python: OOP — O01–O06](senior-python/03-oop.md)
+- [Senior Python: típusok és interfészek — T01–T06](senior-python/04-types-and-interfaces.md)
+
 Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.

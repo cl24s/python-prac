@@ -1,6 +1,6 @@
 # Senior Python fejlesztő – tudástérkép
 
-Állapot: a 14 témakörös tervből az első két témakör kidolgozott első változata elkészült (8 + 6 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
+Állapot: a 14 témakörös tervből az első négy témakör kidolgozott első változata elkészült (8 + 6 + 7 + 6 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
 
 Cél: senior Python backend/platform interjúkra felkészülni. Minden témánál tudni kell, hogyan működik, mikor használnád, milyen hibákhoz vezethet, és hogyan ellenőriznéd.
 
@@ -8,6 +8,11 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 
 - [1. Python működése és nyelvi alapok](01-python-basics/README.md) — 8 fejezet, 6 önálló feladat.
 - [2. Adatszerkezetek és algoritmikus gondolkodás](02-data-structures/README.md) — 6 fejezet, 6 önálló feladat.
+
+- [3. OOP és objektumtervezés](03-oop/README.md) — 7 fejezet, 6 önálló feladat.
+- [4. Típusok és interfészek](04-types-and-interfaces/README.md) — 6 fejezet, 6 önálló feladat.
+
+[Az új példák ellenőrzési jegyzete](VALIDATION.md)
 
 ## 1. Python működése és nyelvi alapok
 
@@ -174,7 +179,7 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 - Ez a fájl a teljes tervezett tartalom áttekintése; nem elsajátítási igazolás.
 - A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek ide kerülnek majd, külön OOP- és FastAPI-résszel.
 - Minden fejezet: működés → használati helyzet → példa → tipikus hibák → angol interjúkérdések → gyakorlat.
-- Következő lépés: az első két témakör stílusának és mélységének áttekintése, majd önálló gyakorlás; a következő kidolgozandó témakör az OOP.
+- Következő lépés: az első négy témakör tanulása és önálló gyakorlása; a következő kidolgozandó témakör a hibakezelés és erőforrás-kezelés.
 - Nem cél minden framework, metaclass-trükk vagy a teljes standard library fejből ismerete.
 
 [Vissza a repó áttekintéséhez](../../README.md) · [Haladáskövetés](../../ROADMAP.md)
