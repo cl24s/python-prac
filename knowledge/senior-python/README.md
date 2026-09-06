@@ -167,9 +167,9 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 ## Kidolgozási elv és következő lépés
 
 - Ez a fájl a teljes tervezett tartalom áttekintése; nem elsajátítási igazolás.
-- A meglévő hét témaváz kiindulópont; az OOP és FastAPI külön részletes fejezetet kap majd.
+- A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek ide kerülnek majd, külön OOP- és FastAPI-résszel.
 - Minden fejezet: működés → használati helyzet → példa → tipikus hibák → angol interjúkérdések → gyakorlat.
 - Következő lépés: a nyelvi alapok részletes kidolgozása és az első gyakorlat pontosítása.
 - Nem cél minden framework, metaclass-trükk vagy a teljes standard library fejből ismerete.
 
-[Vissza a tudásanyaghoz](../README.md) · [Haladáskövetés](../../ROADMAP.md)
+[Vissza a repó áttekintéséhez](../../README.md) · [Haladáskövetés](../../ROADMAP.md)
