@@ -6,7 +6,7 @@ Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorl
 
 - [Roadmap és haladás](ROADMAP.md)
 - [Agent együttműködési szabályok](AGENTS.md)
-- [Tudásanyag](knowledge/README.md)
+- [Tudásanyag](knowledge/senior-python/README.md)
 - [Kisebb gyakorlatok](exercises/README.md)
 - [Projektek](projects/README.md)
 
@@ -19,6 +19,6 @@ Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorl
 
 ## Jelenlegi állapot
 
-Ez az induló struktúra. A témákhoz tanulási célok és interjúkérdések, a gyakorlatokhoz feladatötletek, a projektekhez mérföldkövek készültek. A részletes leckék, feladatkiírások és a futtatható kód később kerülnek be.
+Ez az induló struktúra. A senior-python tudástérképben 14 témakörös tartalomterv, a gyakorlatokhoz feladatötletek, a projektekhez mérföldkövek készültek. A részletes leckék, feladatkiírások és a futtatható kód később kerülnek be.
 
 A dokumentáció magyar; a kód, azonosítók és interjúkérdések angol nyelvűek. Minden dokumentum Markdown (`.md`). A futtatókörnyezet és a függőségek a tényleges kódolás kezdetén kerülnek rögzítésre.
