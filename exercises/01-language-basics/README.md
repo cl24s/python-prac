@@ -14,4 +14,4 @@ Számold össze egy eseménylista elemeit, majd készíts determinisztikusan ren
 
 A konkrét feladat majd a `collections-summary/` almappába kerül, a [feladatsablon](../TEMPLATE.md) alapján.
 
-[Kapcsolódó tudásanyag](../../knowledge/01-language-basics.md) · [Összes gyakorlat](../README.md)
+[Kapcsolódó tudásanyag](../../knowledge/senior-python/README.md#1-python-működése-és-nyelvi-alapok) · [Összes gyakorlat](../README.md)
