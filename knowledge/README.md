@@ -10,6 +10,10 @@ Az alábbi fájlok témavázak; a részletes magyarázatokat a felkészülés so
 - [Teljesítmény](06-performance.md)
 - [Backend és üzemeltetés](07-backend-operations.md)
 
+## Teljes senior Python tanulási terv
+
+- [Senior Python tudástérkép](senior-python/README.md): 14 témakör, külön kiemelt OOP- és FastAPI-fejezettel. A részletes kidolgozás ezt a kibővített témalistát követi.
+
 ## Egy kidolgozott téma felépítése
 
 1. Mi ez, hogyan működik?
