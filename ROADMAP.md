@@ -9,24 +9,28 @@
 
 A fájlok létrejötte nem jelent tanulási haladást.
 
-## Kibővített tananyag
+## Tananyag és haladás
 
-- [Senior Python tudástérkép](knowledge/senior-python/README.md): a teljes, 14 témakörös tartalomterv.
-- OOP és objektumtervezés: önálló, kiemelt fejezetként kidolgozandó.
-- FastAPI: kötelező, önálló fejezetként kidolgozandó; a job processing API-ban gyakoroljuk.
-- A következő táblázat a meglévő témavázakat követi; a kibővített terv részletes fejezetei még nem készültek el.
+A [Senior Python tudástérkép](knowledge/senior-python/README.md) az egyetlen tananyagterv. A részletes fejezeteket a knowledge/senior-python/ könyvtárban dolgozzuk ki, külön OOP- és FastAPI-témakörrel.
 
-## Tudás és gyakorlatok
+| Téma | Állapot |
+| --- | --- |
+| [Python működése és nyelvi alapok](knowledge/senior-python/README.md#1-python-működése-és-nyelvi-alapok) | tervezett |
+| [Adatszerkezetek és algoritmikus gondolkodás](knowledge/senior-python/README.md#2-adatszerkezetek-és-algoritmikus-gondolkodás) | tervezett |
+| [OOP és objektumtervezés — kiemelt témakör](knowledge/senior-python/README.md#3-oop-és-objektumtervezés--kiemelt-témakör) | tervezett |
+| [Típusok és interfészek](knowledge/senior-python/README.md#4-típusok-és-interfészek) | tervezett |
+| [Hibakezelés és erőforrás-kezelés](knowledge/senior-python/README.md#5-hibakezelés-és-erőforrás-kezelés) | tervezett |
+| [Concurrency és párhuzamos végrehajtás](knowledge/senior-python/README.md#6-concurrency-és-párhuzamos-végrehajtás) | tervezett |
+| [Tesztelés és kódminőség](knowledge/senior-python/README.md#7-tesztelés-és-kódminőség) | tervezett |
+| [HTTP és backend alapok](knowledge/senior-python/README.md#8-http-és-backend-alapok) | tervezett |
+| [FastAPI — kötelező, önálló témakör](knowledge/senior-python/README.md#9-fastapi--kötelező-önálló-témakör) | tervezett |
+| [Adatbázisok és adatkezelés](knowledge/senior-python/README.md#10-adatbázisok-és-adatkezelés) | tervezett |
+| [Megbízható szolgáltatások és háttérfeldolgozás](knowledge/senior-python/README.md#11-megbízható-szolgáltatások-és-háttérfeldolgozás) | tervezett |
+| [Teljesítmény és hibakeresés](knowledge/senior-python/README.md#12-teljesítmény-és-hibakeresés) | tervezett |
+| [Csomagolás, biztonság és üzemeltetés](knowledge/senior-python/README.md#13-csomagolás-biztonság-és-üzemeltetés) | tervezett |
+| [Senior szintű tervezés és együttműködés](knowledge/senior-python/README.md#14-senior-szintű-tervezés-és-együttműködés) | tervezett |
 
-| Téma | Tudás | Gyakorlat | Megjegyzés |
-| --- | --- | --- | --- |
-| [Nyelvi alapok](knowledge/01-language-basics.md) | tervezett | [tervezett](exercises/01-language-basics/README.md) | Váz elkészült |
-| [Típusok és absztrakciók](knowledge/02-abstractions.md) | tervezett | [tervezett](exercises/02-abstractions/README.md) | Váz elkészült |
-| [Hibakezelés és erőforrások](knowledge/03-error-handling.md) | tervezett | [tervezett](exercises/03-error-handling/README.md) | Váz elkészült |
-| [Concurrency](knowledge/04-concurrency.md) | tervezett | [tervezett](exercises/04-concurrency/README.md) | Váz elkészült |
-| [Tesztelés](knowledge/05-testing.md) | tervezett | [tervezett](exercises/05-testing/README.md) | Váz elkészült |
-| [Teljesítmény](knowledge/06-performance.md) | tervezett | [tervezett](exercises/06-performance/README.md) | Váz elkészült |
-| [Backend és üzemeltetés](knowledge/07-backend-operations.md) | tervezett | [tervezett](exercises/07-backend-operations/README.md) | Váz elkészült |
+A [gyakorlatok](exercises/README.md) külön feladatvázak; megoldás előtt pontosítjuk őket.
 
 ## Projektek
 
@@ -56,3 +60,4 @@ A fájlok létrejötte nem jelent tanulási haladást.
 | --- | --- | --- |
 | 2026-09-06 | Induló Markdown-struktúra elkészült | Tanulás még nem kezdődött; első téma következik |
 | 2026-09-06 | Senior Python témalista rögzítve; OOP és FastAPI külön kiemelve | Részletes kidolgozás még tervezett; első téma következik |
+| 2026-09-06 | Külső knowledge-témavázak eltávolítva; egyetlen senior-python tananyagstruktúra maradt | Hivatkozások és haladáskövetés az egységes tervhez igazítva |
