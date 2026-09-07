@@ -121,3 +121,47 @@ Hatókör: 18 új fejezet; a deployment-fejezet tervezési anyag, kódblokk nél
 - A 18 önálló feladatnak kiírása készült; nincs kész megoldás vagy igazolt felhasználói teljesítés.
 
 [FastAPI](09-fastapi/README.md) · [Adatbázisok](10-databases/README.md) · [Tudástérkép](README.md)
+
+## Megbízhatóság, teljesítmény és hibakeresés – 2026-09-07
+
+Hatókör: a 11–12. témakör 13 új fejezete.
+
+### Környezet és eredmények
+
+- CPython 3.12.13, Linux; pytest 9.1.1, SQLite 3.53.1.
+- **13/13 önálló Python-kódblokk, 19/19 sikeres pytest-teszteset.** A 11. témakör 12, a 12. témakör 7 tesztesetet tartalmaz.
+- Külön ideiglenes fájl és folyamat minden blokkhoz, 20 másodperces felső korlát; `-W error`, `PYTHONASYNCIODEBUG=1`, `PYTEST_DISABLE_PLUGIN_AUTOLOAD=1` aktív.
+- Nem szükséges új futási függőség: a minták standard libraryt, a tesztek pytestet használnak.
+
+### Ellenőrzött viselkedés
+
+- Fogyó közös deadline, jitter és próbálkozási limit, utolsó próba utáni retry elutasítása.
+- SQLite-deduplikáció újrakapcsolódás után, eltérő tartalom konfliktusa és marker előtti hibából rollback.
+- Ack/retry/dead-letter policy; outbox publikálás utáni hibából szándékos duplikáció; soros breaker cooldown és próba.
+- Worker befejezés és commit előtti cancellation, cleanup és ack külön kezelése.
+- Explicit nearest-rank percentilis, mentett/visszaolvasott cProfile-fájl és hívásszám.
+- Tracemalloc relatív peak összehasonlítás a teljes buffer és stream között.
+- SQLite SELECT-szám 4-ről 1-re csökkenése a rögzített adaton, megőrzött sorrenddel és ismétléssel.
+- Feloldható threadvárakozás faulthandler-dumpja és async task introspection; nincs hátrahagyott segédthread/task.
+- Valódi, kisméretű timeit-futtatás: három ismétlés, ismétlésenként öt hívás; a set előfeldolgozása beleszámít.
+
+### Helyi timeit-minták
+
+Az alábbi értékek a dokumentum példájának egy ellenőrzési futásából származó **másodperc/hívás** adatok. Nem éles kapacitásmérés, nem hordozható sebességígéret. A futtató környezet CPU-kapacitása nincs benchmarkcélra rögzítve.
+
+| Változat | 1. ismétlés | 2. ismétlés | 3. ismétlés |
+| --- | --- | --- | --- |
+| list | 0.002452299 | 0.002454152 | 0.002434000 |
+| set | 0.000035470 | 0.000033565 | 0.000033461 |
+
+### Korlátok
+
+- RabbitMQ, Celery worker, hálózati brokerack és DLQ-konfiguráció nem futott. A policy modellek nem brokerintegrációs tesztek.
+- Az injektált exception és az SQLite újrakapcsolódás nem processz-/gépkiesés, disk-loss vagy elosztott tranzakció ellenőrzése.
+- A breaker soros modell; több relay, konkurens half-open és fencing csak tervezési anyag.
+- A memóriaadat Python-allokációs peak, nem teljes RSS vagy natív memória. Nincs leakbizonyítás az éles alkalmazásra.
+- A profiler és microbenchmark nem load test. Nem mértünk ASGI request/sec kapacitást, éles p99-et, pool-kimerülést vagy többgépes skálázást.
+- Nem futott mypy, linter vagy coverage. A korábbi 94 kódblokkot nem futtattuk újra.
+- A 13 új önálló feladatnak kiírása van; nincs kész megoldás vagy igazolt felhasználói teljesítés.
+
+[Megbízhatóság](11-reliable-services/README.md) · [Teljesítmény](12-performance-and-debugging/README.md) · [Tudástérkép](README.md)

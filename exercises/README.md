@@ -29,4 +29,7 @@ Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás
 - [Senior Python: FastAPI — F01–F11](senior-python/09-fastapi.md)
 - [Senior Python: adatbázisok — DB01–DB07](senior-python/10-databases.md)
 
+- [Senior Python: megbízható szolgáltatások — R01–R07](senior-python/11-reliable-services.md)
+- [Senior Python: teljesítmény és hibakeresés — P01–P06](senior-python/12-performance-and-debugging.md)
+
 Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.

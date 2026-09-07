@@ -1,6 +1,6 @@
 # Senior Python fejlesztő – tudástérkép
 
-Állapot: a 14 témakörös tervből az első tíz témakör kidolgozott első változata elkészült (összesen 70 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
+Állapot: a 14 témakörös tervből az első tizenkét témakör kidolgozott első változata elkészült (összesen 83 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
 
 Cél: senior Python backend/platform interjúkra felkészülni. Minden témánál tudni kell, hogyan működik, mikor használnád, milyen hibákhoz vezethet, és hogyan ellenőriznéd.
 
@@ -20,6 +20,9 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 
 - [9. FastAPI](09-fastapi/README.md) — 11 fejezet, 11 önálló feladat.
 - [10. Adatbázisok és adatkezelés](10-databases/README.md) — 7 fejezet, 7 önálló feladat.
+
+- [11. Megbízható szolgáltatások és háttérfeldolgozás](11-reliable-services/README.md) — 7 fejezet, 7 önálló feladat.
+- [12. Teljesítmény és hibakeresés](12-performance-and-debugging/README.md) — 6 fejezet, 6 önálló feladat.
 
 [A példák ellenőrzési jegyzete](VALIDATION.md)
 
@@ -188,7 +191,7 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 - Ez a fájl a teljes tervezett tartalom áttekintése; nem elsajátítási igazolás.
 - A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek ide kerülnek majd, külön OOP- és FastAPI-résszel.
 - Minden fejezet: működés → használati helyzet → példa → tipikus hibák → angol interjúkérdések → gyakorlat.
-- Következő lépés: az első tíz témakör tanulása és önálló gyakorlása; a következő kidolgozandó témakör a 11. Megbízható szolgáltatások és háttérfeldolgozás.
+- Következő lépés: az első tizenkét témakör tanulása és önálló gyakorlása; a következő kidolgozandó témakör a 13. Csomagolás, biztonság és üzemeltetés.
 - Nem cél minden framework, metaclass-trükk vagy a teljes standard library fejből ismerete.
 
 [Vissza a repó áttekintéséhez](../../README.md) · [Haladáskövetés](../../ROADMAP.md)
