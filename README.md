@@ -13,13 +13,13 @@ Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorl
 ## Kezdés
 
 1. Nyisd meg a roadmapet és válaszd az első témát.
-2. Dolgozzuk ki a kapcsolódó tudásvázat, majd beszéld át angolul az interjúkérdést.
-3. Pontosítsuk a gyakorlat bemenetét, kimenetét és elfogadási feltételeit; utána te oldod meg.
+2. Olvasd el a kapcsolódó fejezetet, majd beszéld át angolul az interjúkérdéseket.
+3. A kidolgozott feladatsorban nézd át a bemenetet, kimenetet és elfogadási feltételeket; utána te oldod meg.
 4. Code review után rögzítsük a tanulságokat és a következő lépést a roadmapben.
 
 ## Jelenlegi állapot
 
-A senior-python tudástérképben 14 témakörös tartalomterv található. Az első tizenkét témakör kidolgozott első változata elkészült:
+A senior-python tudástérképben 14 témakörös tartalomterv található. Mind a 14 témakör kidolgozott első változata elkészült:
 
 | Témakör | Fejezet | Önálló feladat |
 | --- | --- | --- |
@@ -35,8 +35,10 @@ A senior-python tudástérképben 14 témakörös tartalomterv található. Az e
 | [Adatbázisok és adatkezelés](knowledge/senior-python/10-databases/README.md) | 7 | 7 |
 | [Megbízható szolgáltatások és háttérfeldolgozás](knowledge/senior-python/11-reliable-services/README.md) | 7 | 7 |
 | [Teljesítmény és hibakeresés](knowledge/senior-python/12-performance-and-debugging/README.md) | 6 | 6 |
-| **Összesen** | **83** | **80** |
+| [Csomagolás, biztonság és üzemeltetés](knowledge/senior-python/13-packaging-security-and-operations/README.md) | 7 | 7 |
+| [Senior szintű tervezés és együttműködés](knowledge/senior-python/14-design-and-collaboration/README.md) | 7 | 7 |
+| **Összesen** | **97** | **94** |
 
-A fejezetekben összesen 107, a kidolgozásuk során futtatással ellenőrzött Python-kódpélda szerepel. Az [ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti a környezetet és a korlátokat. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
+A fejezetekben összesen 115, a kidolgozásuk során futtatással ellenőrzött Python-kódpélda szerepel. Az [ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti a környezetet és a korlátokat. A tananyag elsajátítása és a projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
 
 A dokumentáció magyar; a kód, azonosítók és interjúkérdések angol nyelvűek. Minden dokumentum Markdown (`.md`). A futtatókörnyezet és a függőségek a tényleges kódolás kezdetén kerülnek rögzítésre.

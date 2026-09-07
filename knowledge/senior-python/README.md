@@ -1,6 +1,6 @@
 # Senior Python fejlesztő – tudástérkép
 
-Állapot: a 14 témakörös tervből az első tizenkét témakör kidolgozott első változata elkészült (összesen 83 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
+Állapot: mind a 14 témakör kidolgozott első változata elkészült (összesen 97 fejezet és 94 önálló feladat); az elsajátítás állapotát a ROADMAP vezeti.
 
 Cél: senior Python backend/platform interjúkra felkészülni. Minden témánál tudni kell, hogyan működik, mikor használnád, milyen hibákhoz vezethet, és hogyan ellenőriznéd.
 
@@ -23,6 +23,9 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 
 - [11. Megbízható szolgáltatások és háttérfeldolgozás](11-reliable-services/README.md) — 7 fejezet, 7 önálló feladat.
 - [12. Teljesítmény és hibakeresés](12-performance-and-debugging/README.md) — 6 fejezet, 6 önálló feladat.
+
+- [13. Csomagolás, biztonság és üzemeltetés](13-packaging-security-and-operations/README.md) — 7 fejezet, 7 önálló feladat.
+- [14. Senior szintű tervezés és együttműködés](14-design-and-collaboration/README.md) — 7 fejezet, 7 önálló feladat.
 
 [A példák ellenőrzési jegyzete](VALIDATION.md)
 
@@ -189,9 +192,9 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 ## Kidolgozási elv és következő lépés
 
 - Ez a fájl a teljes tervezett tartalom áttekintése; nem elsajátítási igazolás.
-- A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek ide kerülnek majd, külön OOP- és FastAPI-résszel.
+- A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek itt találhatók, külön OOP- és FastAPI-résszel.
 - Minden fejezet: működés → használati helyzet → példa → tipikus hibák → angol interjúkérdések → gyakorlat.
-- Következő lépés: az első tizenkét témakör tanulása és önálló gyakorlása; a következő kidolgozandó témakör a 13. Csomagolás, biztonság és üzemeltetés.
+- Következő lépés: a tanulás indítása az 1. Python alapok fejezeteivel és a B01 önálló feladattal; review után rögzítjük az elsajátítást. A teljes tartalom első változata elkészült.
 - Nem cél minden framework, metaclass-trükk vagy a teljes standard library fejből ismerete.
 
 [Vissza a repó áttekintéséhez](../../README.md) · [Haladáskövetés](../../ROADMAP.md)

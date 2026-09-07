@@ -165,3 +165,39 @@ Az alábbi értékek a dokumentum példájának egy ellenőrzési futásából s
 - A 13 új önálló feladatnak kiírása van; nincs kész megoldás vagy igazolt felhasználói teljesítés.
 
 [Megbízhatóság](11-reliable-services/README.md) · [Teljesítmény](12-performance-and-debugging/README.md) · [Tudástérkép](README.md)
+
+## Csomagolás, biztonság, üzemeltetés és senior tervezés – 2026-09-07
+
+Hatókör: a 13–14. témakör 14 új fejezete és 14 önálló feladatkiírása.
+
+### Környezet és eredmények
+
+- CPython 3.12.13, Linux; pytest 9.1.1, SQLite 3.53.1.
+- **8/8 Python-blokk és 27/27 pytest-teszteset sikeres.** A 13. témakörben 6 blokk / 17 eset, a 14.-ben 2 blokk / 10 eset.
+- Minden blokk külön ideiglenes fájlban, külön folyamatban futott, 20 másodperces korláttal. `-W error`, `PYTHONASYNCIODEBUG=1`, `PYTEST_DISABLE_PLUGIN_AUTOLOAD=1` aktív volt.
+- A példákhoz standard library és a már használt pytest elegendő; új csomag telepítése nem kellett.
+
+### Ellenőrzött viselkedés
+
+- A pyproject-minta TOML-ként beolvasható, az entry point és src-keresési beállítás megfelel az oktatási szerződésnek.
+- Settings: helyes konverzió, secret nélküli repr, hiányzó secret és hat hibás timeout elutasítása, köztük NaN és infinity.
+- JSON logesemény: explicit mezők, fizikai sortörés escape-elése és nyers útvonal elutasítása.
+- Connection-budget: normál és surge állapot, valamint hibás poolméret.
+- Valódi SQLite-paraméterezés és külön, veszélytelen Python-subprocess: a shellkarakterek adatargumentumok maradnak.
+- Publikus hibaválasz: belső részlet és ismeretlen belső kód nem kerül a válaszba.
+- Porton át tesztelt use case: tulajdonos olvashat, idegen tenant és hiányzó job azonos kivételkategória.
+- Üzenetkompatibilitás: három támogatott bemenet és négy hibás/ismert szabályt sértő eset.
+
+### Ellenőrzési határok
+
+- A TOML-teszt nem épített wheelt vagy sdistet; a build, artifact smoke teszt és CI a későbbi önálló feladat része.
+- Nem futott lint, mypy, coverage, Docker, Kubernetes, valódi deployment, collector, secret manager vagy terhelésvizsgálat.
+- SSRF-hez fenyegetési modell készült, nem teljes hálózati kliens vagy valódi hálózati biztonsági teszt.
+- A migrációs minta parserkompatibilitást tesztel, nem DB-backfillt, többverziós rolloutot vagy crash recoveryt.
+- A portpélda fake tárolót használ; nem igazol DB-versenykezelést vagy teljes hitelesítést.
+- Windows, eltérő Python-verzió és egyéb operációs rendszer nem volt futtatással ellenőrizve.
+- A korábbi 107 blokkot nem futtattuk újra. Az összesített 115 ellenőrzött blokk a külön munkamenetek eredménye.
+- A kód nélküli fejezetek és feladatok a terv eredeti bullet pontjaihoz, a belső linkekhez és a roadmaphez ellenőrzöttek; nincs hozzájuk automatikus teszttel igazolt „jó architektúra”.
+- A feladatoknak nincs kész megoldása vagy igazolt felhasználói teljesítése. Az elsajátítás továbbra is tervezett.
+
+[Csomagolás és üzemeltetés](13-packaging-security-and-operations/README.md) · [Senior tervezés](14-design-and-collaboration/README.md) · [Tudástérkép](README.md)

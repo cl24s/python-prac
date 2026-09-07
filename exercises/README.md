@@ -32,4 +32,7 @@ Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás
 - [Senior Python: megbízható szolgáltatások — R01–R07](senior-python/11-reliable-services.md)
 - [Senior Python: teljesítmény és hibakeresés — P01–P06](senior-python/12-performance-and-debugging.md)
 
+- [Senior Python: csomagolás, biztonság és üzemeltetés — OP01–OP07](senior-python/13-packaging-security-and-operations.md)
+- [Senior Python: tervezés és együttműködés — SD01–SD07](senior-python/14-design-and-collaboration.md)
+
 Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.

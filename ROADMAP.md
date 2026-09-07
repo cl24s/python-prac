@@ -27,10 +27,10 @@ A [Senior Python tudástérkép](knowledge/senior-python/README.md) az egyetlen 
 | [Adatbázisok és adatkezelés](knowledge/senior-python/10-databases/README.md) | kidolgozott első változat | tervezett |
 | [Megbízható szolgáltatások és háttérfeldolgozás](knowledge/senior-python/11-reliable-services/README.md) | kidolgozott első változat | tervezett |
 | [Teljesítmény és hibakeresés](knowledge/senior-python/12-performance-and-debugging/README.md) | kidolgozott első változat | tervezett |
-| [Csomagolás, biztonság és üzemeltetés](knowledge/senior-python/README.md#13-csomagolás-biztonság-és-üzemeltetés) | tervezett | tervezett |
-| [Senior szintű tervezés és együttműködés](knowledge/senior-python/README.md#14-senior-szintű-tervezés-és-együttműködés) | tervezett | tervezett |
+| [Csomagolás, biztonság és üzemeltetés](knowledge/senior-python/13-packaging-security-and-operations/README.md) | kidolgozott első változat | tervezett |
+| [Senior szintű tervezés és együttműködés](knowledge/senior-python/14-design-and-collaboration/README.md) | kidolgozott első változat | tervezett |
 
-Az első két témához [Python alapok](exercises/senior-python/01-python-basics.md) és [adatszerkezetek](exercises/senior-python/02-data-structures.md) feladatsor készült, konkrét elfogadási feltételekkel. Az [OOP](exercises/senior-python/03-oop.md) és a [típusok és interfészek](exercises/senior-python/04-types-and-interfaces.md) témához is 6–6 konkrét feladat készült. A [hibakezelés](exercises/senior-python/05-error-handling.md) 5, a [concurrency](exercises/senior-python/06-concurrency.md) 7 új feladatot kapott. A [tesztelés](exercises/senior-python/07-testing-and-quality.md) 6, a [HTTP és backend](exercises/senior-python/08-http-and-backend.md) 7 új feladatot kapott. A [FastAPI](exercises/senior-python/09-fastapi.md) 11, az [adatbázisok](exercises/senior-python/10-databases.md) 7 új feladatot kapott. A [megbízhatóság](exercises/senior-python/11-reliable-services.md) 7, a [teljesítmény és hibakeresés](exercises/senior-python/12-performance-and-debugging.md) 6 új feladatot kapott. A régebbi [gyakorlatötletek](exercises/README.md) továbbra is vázak. A tananyag elkészülte nem változtatja készre az elsajátítás állapotát.
+Az első két témához [Python alapok](exercises/senior-python/01-python-basics.md) és [adatszerkezetek](exercises/senior-python/02-data-structures.md) feladatsor készült, konkrét elfogadási feltételekkel. Az [OOP](exercises/senior-python/03-oop.md) és a [típusok és interfészek](exercises/senior-python/04-types-and-interfaces.md) témához is 6–6 konkrét feladat készült. A [hibakezelés](exercises/senior-python/05-error-handling.md) 5, a [concurrency](exercises/senior-python/06-concurrency.md) 7 új feladatot kapott. A [tesztelés](exercises/senior-python/07-testing-and-quality.md) 6, a [HTTP és backend](exercises/senior-python/08-http-and-backend.md) 7 új feladatot kapott. A [FastAPI](exercises/senior-python/09-fastapi.md) 11, az [adatbázisok](exercises/senior-python/10-databases.md) 7 új feladatot kapott. A [megbízhatóság](exercises/senior-python/11-reliable-services.md) 7, a [teljesítmény és hibakeresés](exercises/senior-python/12-performance-and-debugging.md) 6 új feladatot kapott. A [csomagolás, biztonság és üzemeltetés](exercises/senior-python/13-packaging-security-and-operations.md), valamint a [senior tervezés és együttműködés](exercises/senior-python/14-design-and-collaboration.md) 7–7 új feladatot kapott. A régebbi [gyakorlatötletek](exercises/README.md) továbbra is vázak. A tananyag elkészülte nem változtatja készre az elsajátítás állapotát.
 
 ## Projektek
 
@@ -51,7 +51,7 @@ Az első két témához [Python alapok](exercises/senior-python/01-python-basics
 ## Aktuális munkamenet
 
 - Aktív feladat: még nincs.
-- Következő lépés: az első tizenkét témakör tanulása és a megfelelő önálló feladatok megoldása; a következő kidolgozandó téma a 13. Csomagolás, biztonság és üzemeltetés.
+- Következő lépés: a teljes 14 témakörös első változat elkészült; tanulás indítása az 1. Python alapok fejezeteivel és a B01 önálló feladattal, majd review és elsajátítás rögzítése.
 - Elakadás: nincs rögzítve.
 
 ## Munkamenetnapló
@@ -67,3 +67,4 @@ Az első két témához [Python alapok](exercises/senior-python/01-python-basics
 | 2026-09-07 | Tesztelés és HTTP/backend kidolgozva: 13 új fejezet, 11 ellenőrzött kódblokk (24 pytest-eset és 5 script), 13 önálló feladat | CPython 3.12.13, pytest 9.1.1, HTTPX 0.28.1; elsajátítás továbbra is tervezett; következő: 9. FastAPI |
 | 2026-09-07 | FastAPI és adatbázisok kidolgozva: 18 új fejezet, 17 ellenőrzött kódblokk, 18 sikeres pytest-eset, 18 önálló feladat | SQLite/SQLAlchemy integráció és FastAPI TestClient; PostgreSQL/Redis/deploy nem futott; következő: 11. Megbízható szolgáltatások és háttérfeldolgozás |
 | 2026-09-07 | Megbízhatóság és teljesítmény kidolgozva: 13 új fejezet, 13 ellenőrzött kódblokk, 19 sikeres pytest-eset, 13 önálló feladat | Helyi deduplikáció/outbox, cProfile, tracemalloc, stackdiagnosztika és timeit; broker/deploy/load teszt nem futott; következő: 13. Csomagolás, biztonság és üzemeltetés |
+| 2026-09-07 | A 13–14. témakör kidolgozva: 14 új fejezet, 8 futtatott Python-blokk, 27 sikeres pytest-eset, 14 önálló feladat | A teljes 14 témakör első változata elkészült: 97 fejezet, 94 feladat; tanulás még tervezett. Következő: Python alapok és B01, majd review |
