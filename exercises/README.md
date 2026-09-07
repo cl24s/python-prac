@@ -23,4 +23,7 @@ Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás
 - [Senior Python: hibakezelés és erőforrások — E01–E05](senior-python/05-error-handling.md)
 - [Senior Python: concurrency — C01–C07](senior-python/06-concurrency.md)
 
+- [Senior Python: tesztelés és kódminőség — Q01–Q06](senior-python/07-testing-and-quality.md)
+- [Senior Python: HTTP és backend — H01–H07](senior-python/08-http-and-backend.md)
+
 Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.

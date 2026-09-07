@@ -54,3 +54,35 @@ Hatókör: az 5. és 6. témakör 12 fejezete.
 - A 12 új önálló feladat csak kiírás; megoldás és felhasználói teljesítés nincs hozzá rögzítve.
 
 [Hibakezelés](05-error-handling/README.md) · [Concurrency](06-concurrency/README.md) · [Tudástérkép](README.md)
+
+## Tesztelés és HTTP/backend – 2026-09-07
+
+Hatókör: a 7. és 8. témakör 13 fejezete. A két HTTP-tervezési fejezet nem tartalmaz futtatható Python-blokkot.
+
+### Környezet és eredmények
+
+- CPython 3.12.13, Linux; külön virtuális környezet.
+- pytest 9.1.1 és HTTPX 0.28.1.
+- **11/11 teljes Python-kódblokk sikeresen ellenőrizve.**
+- A 7. témakör 6 tesztmodulját valódi pytest-futtatás vizsgálta: **24/24 teszteset sikeres** (fejezetenként 2 + 8 + 3 + 2 + 7 + 2).
+- A 8. témakör 5 scriptje külön folyamatban futott, saját assertionjeivel.
+- Minden blokk önálló ideiglenes fájlt és külön futtatási folyamatot kapott; blokkonként 20 másodperces felső futtatási korlát.
+- `-W error`, `PYTHONASYNCIODEBUG=1` és a pytest-pluginok automatikus betöltését kikapcsoló `PYTEST_DISABLE_PLUGIN_AUTOLOAD=1` aktív volt.
+- Az első fájlpélda Markdownba írásakor keletkezett sortörés-escape hibát a pytest collection kimutatta; javítás után a teljes új példakészlet sikeresen lefutott.
+
+### Mit ellenőriztünk?
+
+- Határértékek, exceptionök, valódi ideiglenes fájl olvasása, mockolt mellékhatás és annak elmaradása, exception chaining.
+- Async cancellation utáni cleanup, várakozás nélküli időhatárteszt, refaktorálás ismert bemeneti szerződése.
+- Problem Details hibafordítás, in-process WSGI/ASGI válasz, tenant-határos hozzáférési policy, összetett kulcsos lapozás.
+- HTTP-kliensadapter sikeres válasza, injektált timeoutja, hibastátusza, sémája és klienslezárása.
+
+### Határok
+
+- A HTTPX WSGI/ASGI és mock transportjai nem tesztelik a valódi DNS-t, TLS-t, proxyt, socketeket, hálózati timeoutot vagy pool-kimerülést.
+- A lifespan, valódi tokenhitelesítés, adatbázis-atomikusság és terhelés nem volt vizsgálva. A fejezetekben szereplő policy és lapozás kontrollált oktatási modell.
+- Az új anyagon nem futott mypy, linter, coverage vagy mutation testing; ezek tananyagként szerepelnek, nem elvégzett ellenőrzésként.
+- A korábbi 66 kódblokk ellenőrzését nem ismételtük meg ebben a munkamenetben.
+- A 13 önálló feladat kiírás; nincs kész megoldás vagy igazolt felhasználói teljesítés. A feladatban kért SQLite-integráció még nem készült el.
+
+[Tesztelés](07-testing-and-quality/README.md) · [HTTP és backend](08-http-and-backend/README.md) · [Tudástérkép](README.md)
