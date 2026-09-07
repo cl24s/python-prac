@@ -1,6 +1,6 @@
 # Senior Python fejlesztő – tudástérkép
 
-Állapot: a 14 témakörös tervből az első nyolc témakör kidolgozott első változata elkészült (8 + 6 + 7 + 6 + 5 + 7 + 6 + 7 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
+Állapot: a 14 témakörös tervből az első tíz témakör kidolgozott első változata elkészült (összesen 70 fejezet). A többi témakör még tervezett; az elsajátítás állapotát a ROADMAP vezeti.
 
 Cél: senior Python backend/platform interjúkra felkészülni. Minden témánál tudni kell, hogyan működik, mikor használnád, milyen hibákhoz vezethet, és hogyan ellenőriznéd.
 
@@ -17,6 +17,9 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 
 - [7. Tesztelés és kódminőség](07-testing-and-quality/README.md) — 6 fejezet, 6 önálló feladat.
 - [8. HTTP és backend alapok](08-http-and-backend/README.md) — 7 fejezet, 7 önálló feladat.
+
+- [9. FastAPI](09-fastapi/README.md) — 11 fejezet, 11 önálló feladat.
+- [10. Adatbázisok és adatkezelés](10-databases/README.md) — 7 fejezet, 7 önálló feladat.
 
 [A példák ellenőrzési jegyzete](VALIDATION.md)
 
@@ -185,7 +188,7 @@ Cél: senior Python backend/platform interjúkra felkészülni. Minden témáná
 - Ez a fájl a teljes tervezett tartalom áttekintése; nem elsajátítási igazolás.
 - A knowledge/ alatt kizárólag a senior-python/ tananyagstruktúrát használjuk; a részletes fejezetek ide kerülnek majd, külön OOP- és FastAPI-résszel.
 - Minden fejezet: működés → használati helyzet → példa → tipikus hibák → angol interjúkérdések → gyakorlat.
-- Következő lépés: az első nyolc témakör tanulása és önálló gyakorlása; a következő kidolgozandó témakör a 9. FastAPI.
+- Következő lépés: az első tíz témakör tanulása és önálló gyakorlása; a következő kidolgozandó témakör a 11. Megbízható szolgáltatások és háttérfeldolgozás.
 - Nem cél minden framework, metaclass-trükk vagy a teljes standard library fejből ismerete.
 
 [Vissza a repó áttekintéséhez](../../README.md) · [Haladáskövetés](../../ROADMAP.md)

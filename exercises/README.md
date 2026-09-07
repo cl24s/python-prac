@@ -26,4 +26,7 @@ Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás
 - [Senior Python: tesztelés és kódminőség — Q01–Q06](senior-python/07-testing-and-quality.md)
 - [Senior Python: HTTP és backend — H01–H07](senior-python/08-http-and-backend.md)
 
+- [Senior Python: FastAPI — F01–F11](senior-python/09-fastapi.md)
+- [Senior Python: adatbázisok — DB01–DB07](senior-python/10-databases.md)
+
 Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.

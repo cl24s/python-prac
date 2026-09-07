@@ -19,7 +19,7 @@ Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorl
 
 ## Jelenlegi állapot
 
-A senior-python tudástérképben 14 témakörös tartalomterv található. Az első nyolc témakör kidolgozott első változata elkészült:
+A senior-python tudástérképben 14 témakörös tartalomterv található. Az első tíz témakör kidolgozott első változata elkészült:
 
 | Témakör | Fejezet | Önálló feladat |
 | --- | --- | --- |
@@ -31,8 +31,10 @@ A senior-python tudástérképben 14 témakörös tartalomterv található. Az e
 | [Concurrency és párhuzamos végrehajtás](knowledge/senior-python/06-concurrency/README.md) | 7 | 7 |
 | [Tesztelés és kódminőség](knowledge/senior-python/07-testing-and-quality/README.md) | 6 | 6 |
 | [HTTP és backend alapok](knowledge/senior-python/08-http-and-backend/README.md) | 7 | 7 |
-| **Összesen** | **52** | **49** |
+| [FastAPI](knowledge/senior-python/09-fastapi/README.md) | 11 | 11 |
+| [Adatbázisok és adatkezelés](knowledge/senior-python/10-databases/README.md) | 7 | 7 |
+| **Összesen** | **70** | **67** |
 
-A fejezetekben összesen 77, a kidolgozásuk során futtatással ellenőrzött Python-kódpélda szerepel. Az [ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti a környezetet és a korlátokat. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
+A fejezetekben összesen 94, a kidolgozásuk során futtatással ellenőrzött Python-kódpélda szerepel. Az [ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti a környezetet és a korlátokat. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
 
 A dokumentáció magyar; a kód, azonosítók és interjúkérdések angol nyelvűek. Minden dokumentum Markdown (`.md`). A futtatókörnyezet és a függőségek a tényleges kódolás kezdetén kerülnek rögzítésre.

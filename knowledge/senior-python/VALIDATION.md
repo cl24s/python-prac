@@ -86,3 +86,38 @@ Hatókör: a 7. és 8. témakör 13 fejezete. A két HTTP-tervezési fejezet nem
 - A 13 önálló feladat kiírás; nincs kész megoldás vagy igazolt felhasználói teljesítés. A feladatban kért SQLite-integráció még nem készült el.
 
 [Tesztelés](07-testing-and-quality/README.md) · [HTTP és backend](08-http-and-backend/README.md) · [Tudástérkép](README.md)
+
+## FastAPI és adatbázisok – 2026-09-07
+
+Hatókör: 18 új fejezet; a deployment-fejezet tervezési anyag, kódblokk nélkül.
+
+### Környezet és eredmény
+
+- CPython 3.12.13, Linux, SQLite 3.53.1.
+- fastapi 0.141.1, starlette 1.6.0, pydantic 2.13.5, sqlalchemy 2.0.52, pytest 9.1.1, httpx 0.28.1, httpx2 2.12.0, anyio 4.15.1.
+- **17/17 önálló Python-kódblokk, összesen 18/18 sikeres pytest-teszteset.**
+- A teljes blokkok külön ideiglenes fájlból és folyamatból futottak, blokkonként 20 másodperces felső korláttal.
+- `PYTHONASYNCIODEBUG=1`, `PYTEST_DISABLE_PLUGIN_AUTOLOAD=1`, a RuntimeWarning és ResourceWarning hibának számított.
+- A Starlette TestClienthez a környezetbe felkerült a httpx2; a korábbi httpx-alapú fallback deprecation warningja így megszűnt.
+- A Starlette 1.6.0 belső `anyio.abc.BlockingPortal` alias-használata AnyIO 4.15.1 mellett deprecation warningot ad. Ezt az első, minden warningot hibának tekintő próbafuttatás azonosította. A végső futtatás az általános deprecation warningokat nem kezelte tesztbukásként; a RuntimeWarning és ResourceWarning kategóriát továbbra is hibának tekintette.
+
+### Mit igazol a futtatás?
+
+- FastAPI routing, validáció, response filtering, célzott OpenAPI-szerződés.
+- Pydantic strict értékek, hiányzó/null mező, dependency cache és cleanup.
+- Explicit thread-offload helye, lifespan kliensnyitás/lezárás, kezelt hibák request ID-ja.
+- Demonstrációs bearer hitelesítési határ és objektumpolicy, dependency override visszaállítása, in-process background callback.
+- Valódi SQLite + SQLAlchemy HTTP-integráció: egyediség, sikeres commit és konfliktus után új kérés.
+- SQL LEFT JOIN, paraméterezés, helyi indexterv, részleges hiba rollbackje, elavult verzió elutasítása.
+- ORM N+1: a rögzített három owneres mintán 4 SELECT helyett 2, friss sessionökben.
+- Ismételhető backfill és késői régi író esete; lokális cache TTL/tenant/invalidation szabályai.
+
+### Korlátok
+
+- Nem futott PostgreSQL-szerver, Redis, Alembic-migráció, valódi JWT-verifier vagy éles ASGI-deployment.
+- A SQLite stale-version teszt kontrollált írássorrend, nem valódi párhuzamos PostgreSQL lock/serialization teszt.
+- A tesztek nem bizonyítják hálózati poolok működését, terhelési kapacitást, crash recoveryt vagy tartós üzenetfeldolgozást.
+- Nem futott mypy, linter, coverage vagy teljesítménybenchmark. A korábbi 77 példát nem futtattuk újra.
+- A 18 önálló feladatnak kiírása készült; nincs kész megoldás vagy igazolt felhasználói teljesítés.
+
+[FastAPI](09-fastapi/README.md) · [Adatbázisok](10-databases/README.md) · [Tudástérkép](README.md)
