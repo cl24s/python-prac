@@ -19,6 +19,18 @@ Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorl
 
 ## Jelenlegi állapot
 
-A senior-python tudástérképben 14 témakörös tartalomterv található. Az [első témakör](knowledge/senior-python/01-python-basics/README.md) 8, a [második](knowledge/senior-python/02-data-structures/README.md) 6 részletes fejezetet kapott, összesen 29 ellenőrzött Python-kódpéldával és 12 önálló feladattal. Az [OOP](knowledge/senior-python/03-oop/README.md) további 7, a [típusok és interfészek](knowledge/senior-python/04-types-and-interfaces/README.md) 6 fejezetet, 21 új ellenőrzött kódpéldát és 12 új önálló feladatot kapott. Így összesen 27 fejezet és 24 feladat áll rendelkezésre. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
+A senior-python tudástérképben 14 témakörös tartalomterv található. Az első hat témakör kidolgozott első változata elkészült:
+
+| Témakör | Fejezet | Önálló feladat |
+| --- | --- | --- |
+| [Python alapok](knowledge/senior-python/01-python-basics/README.md) | 8 | 6 |
+| [Adatszerkezetek](knowledge/senior-python/02-data-structures/README.md) | 6 | 6 |
+| [OOP](knowledge/senior-python/03-oop/README.md) | 7 | 6 |
+| [Típusok és interfészek](knowledge/senior-python/04-types-and-interfaces/README.md) | 6 | 6 |
+| [Hibakezelés és erőforrás-kezelés](knowledge/senior-python/05-error-handling/README.md) | 5 | 5 |
+| [Concurrency és párhuzamos végrehajtás](knowledge/senior-python/06-concurrency/README.md) | 7 | 7 |
+| **Összesen** | **39** | **36** |
+
+A fejezetekben összesen 66, a kidolgozásuk során futtatással ellenőrzött Python-kódpélda szerepel. Az [ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti a környezetet és a korlátokat. A további témák és projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
 
 A dokumentáció magyar; a kód, azonosítók és interjúkérdések angol nyelvűek. Minden dokumentum Markdown (`.md`). A futtatókörnyezet és a függőségek a tényleges kódolás kezdetén kerülnek rögzítésre.

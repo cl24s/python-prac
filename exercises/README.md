@@ -20,4 +20,7 @@ Minden konkrét feladat saját almappát kap a témán belül. A feladatleírás
 - [Senior Python: OOP — O01–O06](senior-python/03-oop.md)
 - [Senior Python: típusok és interfészek — T01–T06](senior-python/04-types-and-interfaces.md)
 
+- [Senior Python: hibakezelés és erőforrások — E01–E05](senior-python/05-error-handling.md)
+- [Senior Python: concurrency — C01–C07](senior-python/06-concurrency.md)
+
 Ezekhez már konkrét bemenet, viselkedés és elfogadási feltételek tartoznak; kész megoldások nincsenek mellékelve.
