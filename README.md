@@ -1,44 +1,24 @@
 # python-prac
 
-Python interjúfelkészülés: nyelvi tudás felelevenítése, önálló gyakorlatok és fokozatos projektépítés, senior backend/platform szemlélettel.
+Fokozatos Python-tanulás: önálló programozási rutin, tesztelt kis programok, majd backend- és adatfeldolgozó alkalmazások. Az interjúfelkészülés későbbi felhasználási mód, nem a tanulási tempó alapja.
+
+**Kezdés: [START_HERE.md](START_HERE.md).** Az aktuális sorrendet és haladást a [ROADMAP](ROADMAP.md) vezeti; nem kell a témákat fájlszám szerint végigolvasni.
 
 ## Navigáció
 
-- [Roadmap és haladás](ROADMAP.md)
-- [Agent együttműködési szabályok](AGENTS.md)
-- [Tudásanyag](knowledge/senior-python/README.md)
-- [Kisebb gyakorlatok](exercises/README.md)
+- [Tanulási útvonal és haladás](ROADMAP.md)
+- [Együttműködési szabályok](AGENTS.md)
+- [Gyakorlati alapozás](knowledge/senior-python/00-foundations/README.md)
+- [Teljes tudástérkép](knowledge/senior-python/README.md)
+- [Gyakorlatok](exercises/README.md)
 - [Projektek](projects/README.md)
 
-## Kezdés
+## A repó szerepe
 
-1. Nyisd meg a roadmapet és válaszd az első témát.
-2. Olvasd el a kapcsolódó fejezetet, majd beszéld át angolul az interjúkérdéseket.
-3. A kidolgozott feladatsorban nézd át a bemenetet, kimenetet és elfogadási feltételeket; utána te oldod meg.
-4. Code review után rögzítsük a tanulságokat és a következő lépést a roadmapben.
+A `knowledge/` magyarázat és referencia; az `exercises/` saját megoldások gyakorlótere; a `projects/` több készség összekapcsolása. A fájlok létezése nem igazol elsajátítást.
 
-## Jelenlegi állapot
+A korábbi 14 témakör 97 fejezete és 94 feladatkiírása megmaradt. Ezek elé 4 rövid gyakorlati alapozó fejezet és 8 új feladat került. A régi témakörökben a „senior” elnevezés a hosszabb távú lefedettséget jelöli, nem belépési követelmény és nem előírt olvasási sorrend.
 
-A senior-python tudástérképben 14 témakörös tartalomterv található. Mind a 14 témakör kidolgozott első változata elkészült:
+A korábbi példafuttatásokat a [régi ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti; az alapozás saját ellenőrzése a [saját áttekintésében](knowledge/senior-python/00-foundations/README.md) szerepel. A tananyagpéldák ellenőrzése nem jelenti a felhasználói gyakorlatok teljesítését.
 
-| Témakör | Fejezet | Önálló feladat |
-| --- | --- | --- |
-| [Python alapok](knowledge/senior-python/01-python-basics/README.md) | 8 | 6 |
-| [Adatszerkezetek](knowledge/senior-python/02-data-structures/README.md) | 6 | 6 |
-| [OOP](knowledge/senior-python/03-oop/README.md) | 7 | 6 |
-| [Típusok és interfészek](knowledge/senior-python/04-types-and-interfaces/README.md) | 6 | 6 |
-| [Hibakezelés és erőforrás-kezelés](knowledge/senior-python/05-error-handling/README.md) | 5 | 5 |
-| [Concurrency és párhuzamos végrehajtás](knowledge/senior-python/06-concurrency/README.md) | 7 | 7 |
-| [Tesztelés és kódminőség](knowledge/senior-python/07-testing-and-quality/README.md) | 6 | 6 |
-| [HTTP és backend alapok](knowledge/senior-python/08-http-and-backend/README.md) | 7 | 7 |
-| [FastAPI](knowledge/senior-python/09-fastapi/README.md) | 11 | 11 |
-| [Adatbázisok és adatkezelés](knowledge/senior-python/10-databases/README.md) | 7 | 7 |
-| [Megbízható szolgáltatások és háttérfeldolgozás](knowledge/senior-python/11-reliable-services/README.md) | 7 | 7 |
-| [Teljesítmény és hibakeresés](knowledge/senior-python/12-performance-and-debugging/README.md) | 6 | 6 |
-| [Csomagolás, biztonság és üzemeltetés](knowledge/senior-python/13-packaging-security-and-operations/README.md) | 7 | 7 |
-| [Senior szintű tervezés és együttműködés](knowledge/senior-python/14-design-and-collaboration/README.md) | 7 | 7 |
-| **Összesen** | **97** | **94** |
-
-A fejezetekben összesen 115, a kidolgozásuk során futtatással ellenőrzött Python-kódpélda szerepel. Az [ellenőrzési jegyzet](knowledge/senior-python/VALIDATION.md) rögzíti a környezetet és a korlátokat. A tananyag elsajátítása és a projektek még tervezettek; a feladatokhoz kész megoldás nincs mellékelve.
-
-A dokumentáció magyar; a kód, azonosítók és interjúkérdések angol nyelvűek. Minden dokumentum Markdown (`.md`). A futtatókörnyezet és a függőségek a tényleges kódolás kezdetén kerülnek rögzítésre.
+A dokumentáció magyar, a kód és azonosítók angol nyelvűek. Minden dokumentáció Markdown. Az első saját megoldásokat a felhasználó írja; kész feladatmegoldást az agent csak kifejezett kérésre ad.

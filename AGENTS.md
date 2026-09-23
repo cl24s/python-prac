@@ -2,25 +2,29 @@
 
 ## Cél és nyelv
 
-- Segíts Python interjúkra készülni, különös tekintettel a backend/platform problémákra és tervezési döntésekre.
-- A magyarázat és dokumentáció magyar, a kód és az interjúkérdések angol nyelvűek.
-- Minden dokumentum `.md` fájl legyen. A későbbi forráskód és szükséges konfiguráció a saját formátumát használja.
+- Elsődleges cél az önálló Python-programozás fokozatos felépítése, majd backend- és adatfeldolgozó alkalmazások. Az interjúgyakorlás külön, későbbi mód.
+- A magyarázat és dokumentáció magyar; a kód, azonosítók és rövid szakmai kérdések angol nyelvűek. Kezdetben az angol ne akadályozza a megértést.
+- Minden dokumentáció `.md`; a későbbi forráskód és szükséges konfiguráció saját formátumú.
+- A knowledge alatt maradjon egyetlen `senior-python/` struktúra, benne a `00-foundations/` belépővel. Ne másold szét a meglévő tananyagot.
 
 ## Munkamenet
 
-1. Olvasd el a README-t, a ROADMAP-ot és az érintett feladatot.
-2. A felhasználó aktuális kérését kövesd; folytatásnál a roadmap következő lépéséből indulj.
-3. A struktúra-vázakat ne tekintsd kidolgozott leckének vagy teljes feladatkiírásnak.
-4. Gyakorlat előtt rögzítsd a célt, bemenetet, kimenetet, korlátokat és elfogadási feltételeket.
-5. Alapból a felhasználó oldja meg a feladatot. Először célzott kérdést vagy kis segítséget adj; teljes megoldást kifejezett kérésre.
-6. Review során vizsgáld a helyességet, szélső eseteket, nyelvi idiomákat, tesztelhetőséget, erőforrás-kezelést és indokolt teljesítményigényt.
-7. Ne fordítsd mechanikusan a másik nyelv megoldását; indokold a nyelvhez illő döntéseket.
-8. A munkamenet végén frissítsd a ROADMAP aktuális állapotát, tanulságait és konkrét következő lépését.
+1. Olvasd el a START_HERE-t, a ROADMAP-ot és az érintett feladatot. A roadmap az aktuális sorrend és állapot forrása; a tananyag számozása nem tanulási kényszer.
+2. Kövesd a felhasználó aktuális kérését. Egy aktív feladat, egy következő lépés legyen; ne adj automatikusan teljes heti feladathalmazt.
+3. Gyakorlat előtt tisztázd a célt, bemenetet, kimenetet, garantált inputtípusokat, hibaszerződést és elfogadási feltételeket. Ne találj ki utólag rejtett követelményt.
+4. Alapból a felhasználó írja az első megoldást és teszteket. Először célzott kérdés, majd kis fogalmi segítség, utána szükség esetén részleges példa; teljes megoldás csak kifejezett kérésre.
+5. Tanulási módban dokumentáció és segítség megengedett. Ellenőrző módban előre egyeztesd az eszközhasználatot; ne használd a frissen megmutatott mintát független mérésnek. A változat új bemenetet vagy szabályt is tartalmazzon.
+6. Review: először helyesség és szélső esetek, majd olvashatóság, tesztelés, bemenetmegőrzés és indokolt komplexitás. Különítsd el a javítandó hibát az opcionális stílustól. Ne követelj comprehensiont vagy osztályt, ha egyszerű ciklus vagy függvény megfelelő.
+7. Az elakadást bontsd szét: problémafelbontás, Python-szintaxis, adatszerkezet, tesztelés, hibakeresés. A platformtapasztalatból ne következtess automatikusan Python-szintre.
+8. Ne adj garantált felkészülési időt vagy senioritási minősítést. A következő szakaszt a megoldások alapján válaszd, ne az eltelt napokból.
+9. Munkamenet végén rögzítsd a tényleges bizonyítékot, kapott segítséget, ismétlendő részt és a következő lépést. A kódolás helyett ne gyárts újabb teljes tananyaghegyet.
 
-## Haladás és ellenőrzés
+## Haladás, ellenőrzés és megőrzés
 
-- Kész állapot csak bizonyított megértés vagy teljesített elfogadási feltételek alapján adható; fájl létrehozása nem jelent elsajátítást.
-- Kódnál a releváns teszteket futtasd; a nem futtatott ellenőrzést jelezd.
-- Dokumentáció módosításakor ellenőrizd a relatív linkeket és a roadmap összhangját.
-- Ne írj felül önálló felhasználói munkát; az ismétlendő témát és az elakadás okát rögzítsd.
-- Ne tegyél titkokat vagy személyes interjúadatokat a repóba.
+- Tananyag elkészült != feladat megoldva != később önállóan is alkalmazható.
+- A „kész” feladat teljesíti az elfogadási feltételeket; a témakör „stabil” állapotához külön alkalommal végzett új változat is kell. Részletek a ROADMAP-ben.
+- Kódnál futtasd a releváns ellenőrzéseket, a nem futtatott vizsgálatot és a környezetet nevezd meg.
+- Dokumentációmódosításkor ellenőrizd az érintett relatív linkeket és a roadmap összhangját.
+- Ne írj felül önálló felhasználói munkát. A korábbi fejezeteket, feladatkiírásokat és naplóelőzményt őrizd meg; elavult útmutatás ne legyen párhuzamos aktuális terv.
+- Ne tegyél titkokat, valódi ügyféladatot vagy személyes jelentkezési/interjúadatot a repóba. Mintaadat legyen mesterséges.
+- Repoíráskor ellenőrizd az aktuális alapcommitot, és ne használj force push-t más munka felülírására.

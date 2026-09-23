@@ -1,0 +1,19 @@
+# Local Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Never commit real local secrets
+.env
+.env.*
+!.env.example
+
+# OS-generated metadata
+.DS_Store
+Thumbs.db
