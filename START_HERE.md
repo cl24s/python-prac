@@ -2,28 +2,26 @@
 
 ## Most mi a cél?
 
-Rövid Python-programokat önállóan megtervezni, megírni, futtatni, tesztelni és javítani. Ezután következnek a nagyobb backendfeladatok. Nincs kötelező kéthetes határidő, és nem kell előbb az egész senior tudástérképet megtanulni.
+**Tanulás kész, gyakorlati feladatkiírásokból.** Nem előbb az egész elmélet, majd egyszer egy projekt: egy kis feladatkezelőt építesz, és közben vesszük elő a szükséges Python-fogalmakat. A kész kiírás nem kész megoldás; a kódot és a saját teszteket te írod.
+
+**A Python-futtatás kész a felhasználó 2026-09-23-i jelzése alapján.** Nem kell újra telepítési lépésekkel vagy kötelező D01-szintfelmérővel kezdeni. Ebből más készség elsajátítását nem következtetjük ki.
 
 ## A következő egy lépés
 
-Ha már tudsz `.py` fájlt futtatni, kezdd a meglévő [D01 — without_status](exercises/senior-python/02-data-structures.md#d01) feladattal. Ez tét nélküli kiindulópont, nem állásinterjú és nem minősítés.
+Nyisd meg a [TM01 — Típusok és validáció](exercises/task-manager/01-types-and-validation.md) kiírást. Elsőként csak az **1. rész: normalize_title** függvényt és a hozzá tartozó teszteket írd meg. Ehhez hozd létre az `exercises/task-manager/work/` mappát és a kiírásban javasolt saját fájlokat.
 
-Ha a futtatás még bizonytalan, előbb a [környezet és futtatás](knowledge/senior-python/00-foundations/01-running-python.md) fejezet következik. Ha a D01 megoldásához a függvények vagy ciklusok hiányoznak, visszalépünk a [gyakorlati nyelvi alapokra](knowledge/senior-python/00-foundations/02-writing-small-programs.md) és az [L01–L02](exercises/senior-python/00-foundations.md#l01) feladatokra. A visszalépés nem kudarc; pontosítja, mit kell gyakorolni.
-
-A D01 saját kódja és tesztjei később az `exercises/senior-python/02-data-structures/d01/` mappába kerüljenek. A mappa létrehozása nem jelenti, hogy a feladat kész.
+A további két kiírás is elkészült: [TM02 — Adatszerkezetek](exercises/task-manager/02-data-structures.md), [TM03 — OOP](exercises/task-manager/03-oop.md). Ezek nem egyszerre kiadott házi feladatok. [A feladatkezelő áttekintése](exercises/task-manager/README.md) megmutatja, hogyan kapcsolódnak össze; a tényleges állapotot a [ROADMAP](ROADMAP.md) vezeti.
 
 ## Egy munkamenet
 
-1. Egy feladatot választunk. Saját szavaiddal megfogalmazod a bemenetet, kimenetet és a fontos eseteket.
-2. Önálló próbálkozás következik. Tanulás közben szabad dokumentációt nézni és segítséget kérni; ezt rögzítjük.
+1. Elolvasod az adott feladat vagy rész bemenetét, kimenetét és elfogadási feltételeit.
+2. Önállóan próbálkozol. Dokumentáció, célzott elméleti magyarázat és kis segítség használható közben.
 3. Saját tesztekkel ellenőrzöl, majd célzott review jön. Nem írjuk át automatikusan az egész megoldást helyetted.
-4. Feljegyezzük az elakadást és a következő konkrét lépést a [ROADMAP-ben](ROADMAP.md).
-5. Egy későbbi alkalommal új változattal ellenőrizzük ugyanazt a készséget, a korábbi megoldás megnyitása nélkül.
+4. Feljegyezzük, mi ment önállóan, mi akadt el, mi futott és mi a következő rész.
+5. Egy későbbi alkalommal új változaton is használod az adott készséget. Nem kell azonnal időre dolgozni.
 
-A tananyag olvasása és a mellette lévő példa visszaírása gyakorlás, nem független tudásmérés. Ha egy feladat túl könnyű, nem kell minden hasonlót végigírni: új változattal igazolt megértés után előreléphetünk.
+A `knowledge/` most háttéranyag, nem előzetesen kipipálandó kurzus. A régi D01, L01–L08 és más gyakorlatok megmaradnak célzott kisegítésre, de nem kell ugyanazt a készséget minden feladatsoron újrakezdeni.
 
-## Most nem feladat
+## Mi jöhet később?
 
-Nem építünk előre CI-platformot, Kubernetes-környezetet, RAG-rendszert vagy általános frameworköt. A closure, dekorátor, MRO és haladó async témák sem előfeltételei az első gyakorlatoknak. Ezek nem törlődtek, hanem későbbre kerültek.
-
-A hosszabb távú sorrend és a még hiányzó bővítések a [ROADMAP-ben](ROADMAP.md) vannak. Egyszerre egy aktív feladatunk legyen.
+A TaskManager objektumos változatára később FastAPI-felület kerülhet. Ez külön következő feladat lesz; most az alapműködést építed fel HTTP, adatbázis és async nélkül. Nem kezdünk újabb tananyaggyártásba vagy infrastruktúra-építésbe a saját kód helyett.

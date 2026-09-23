@@ -1,8 +1,22 @@
 # Gyakorlatok
 
-**Aktuális feladat és sorrend: [ROADMAP](../ROADMAP.md). Kezdés: [START_HERE](../START_HERE.md).** Ne a könyvtárak számozásából válassz automatikusan következő feladatot.
+**Aktuális feladat és állapot: [ROADMAP](../ROADMAP.md). Kezdés: [START_HERE](../START_HERE.md).** A tanulás belépési pontja egy kész feladatkiírás, az elmélet a megoldás közben használható referencia.
 
-## Aktív feladatgyűjtemény
+## Aktuális gyakorlati feladatsor — Feladatkezelő
+
+Egy kis program három egymásra épülő változatban. Kész követelmények, mintaadatok, elvárt eredmények és elfogadási feltételek; kész implementáció nélkül.
+
+| Kiírás | Fókusz |
+| --- | --- |
+| [TM01 — Típusok és validáció](task-manager/01-types-and-validation.md) | String, int, bool, None, függvények, bemenetellenőrzés és új rekord. |
+| [TM02 — Adatszerkezetek](task-manager/02-data-structures.md) | List, dict, set, keresés, rendezés, összesítés és referenciák. |
+| [TM03 — OOP](task-manager/03-oop.md) | Task, TaskManager, példányállapot, metódusok és composition. |
+
+[Feladatkezelő áttekintése és saját fájlok helye](task-manager/README.md). Az első konkrét rész a TM01 normalize_title függvénye. FastAPI ugyanennek a programnak későbbi bővítése lehet, nem mostani előfeltétel.
+
+## Meglévő feladatbank — célzott kiegészítés
+
+Ezek megmaradtak, de nem második kötelező útvonal. Akkor válasszunk belőlük, ha egy konkrét fogalmat külön kell gyakorolni.
 
 - [Gyakorlati alapozás — L01–L08](senior-python/00-foundations.md)
 - [Nyelvi alapok — B01–B06](senior-python/01-python-basics.md)
@@ -22,9 +36,9 @@
 
 ## Saját megoldások
 
-A kiírás és a megoldás külön maradjon. Például a D01 saját munkája az `exercises/senior-python/02-data-structures/d01/`, az L01-é az `exercises/senior-python/00-foundations/l01/` mappába kerülhet. Egy mappában kezdetben elég `solution.py`, `test_solution.py` és szükség esetén rövid `NOTES.md`. A mappák csak a tényleges munka kezdetén jönnek létre.
+A feladatkezelő kódját az `exercises/task-manager/work/` mappában bővíted. A javasolt fájlokat csak a tényleges munka kezdetén hozd létre. A régi önálló feladatok saját almappái is megmaradnak: például `senior-python/02-data-structures/d01/`, illetve `senior-python/00-foundations/l01/`.
 
-Az első rövid feladatokat saját `assert` ellenőrzések is kísérhetik; hamar áttérünk pytestre. Nem kell minden feladathoz package, container, CI vagy DESIGN.md. Kész megoldás alapból nincs mellékelve.
+Az első rövid feladatokat saját assert-ellenőrzések is kísérhetik; pytestre fokozatosan térünk át. Nem kell minden feladathoz package, container, CI vagy DESIGN.md. Kész megoldás alapból nincs mellékelve.
 
 Rögzítsd: mi ment önállóan, mihez kellett dokumentáció vagy segítség, mely teszteket futtattad és mi maradt bizonytalan. Egy későbbi, új változat külön ellenőrzés, nem a régi kód újramásolása.
 

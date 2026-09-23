@@ -3,14 +3,15 @@
 ## Cél és nyelv
 
 - Elsődleges cél az önálló Python-programozás fokozatos felépítése, majd backend- és adatfeldolgozó alkalmazások. Az interjúgyakorlás külön, későbbi mód.
+- A felhasználó kész, gyakorlati feladatkiírásokon keresztül tanul: feladat előbb, szükséges elmélet közben. A kész kiírás nem előre megírt megoldás. Alapból ne újabb olvasási tervet vagy kötelező diagnosztikai kitérőt adj.
 - A magyarázat és dokumentáció magyar; a kód, azonosítók és rövid szakmai kérdések angol nyelvűek. Kezdetben az angol ne akadályozza a megértést.
 - Minden dokumentáció `.md`; a későbbi forráskód és szükséges konfiguráció saját formátumú.
-- A knowledge alatt maradjon egyetlen `senior-python/` struktúra, benne a `00-foundations/` belépővel. Ne másold szét a meglévő tananyagot.
+- A knowledge alatt maradjon egyetlen `senior-python/` struktúra, benne a `00-foundations/` belépővel. Ne másold szét a meglévő tananyagot. A gyakorlati TaskManager feladatsor az `exercises/task-manager/` alatt van.
 
 ## Munkamenet
 
 1. Olvasd el a START_HERE-t, a ROADMAP-ot és az érintett feladatot. A roadmap az aktuális sorrend és állapot forrása; a tananyag számozása nem tanulási kényszer.
-2. Kövesd a felhasználó aktuális kérését. Egy aktív feladat, egy következő lépés legyen; ne adj automatikusan teljes heti feladathalmazt.
+2. Kövesd a felhasználó aktuális kérését. Több kész kiírás létrehozható, ha kéri, de egy aktív feladat vagy rész, egy következő lépés legyen. A Python-futtatást a felhasználó már működőnek jelezte; ne kezdjük újra a telepítést hiba nélkül.
 3. Gyakorlat előtt tisztázd a célt, bemenetet, kimenetet, garantált inputtípusokat, hibaszerződést és elfogadási feltételeket. Ne találj ki utólag rejtett követelményt.
 4. Alapból a felhasználó írja az első megoldást és teszteket. Először célzott kérdés, majd kis fogalmi segítség, utána szükség esetén részleges példa; teljes megoldás csak kifejezett kérésre.
 5. Tanulási módban dokumentáció és segítség megengedett. Ellenőrző módban előre egyeztesd az eszközhasználatot; ne használd a frissen megmutatott mintát független mérésnek. A változat új bemenetet vagy szabályt is tartalmazzon.
@@ -23,7 +24,7 @@
 
 - Tananyag elkészült != feladat megoldva != később önállóan is alkalmazható.
 - A „kész” feladat teljesíti az elfogadási feltételeket; a témakör „stabil” állapotához külön alkalommal végzett új változat is kell. Részletek a ROADMAP-ben.
-- Kódnál futtasd a releváns ellenőrzéseket, a nem futtatott vizsgálatot és a környezetet nevezd meg.
+- Kódnál futtasd a releváns ellenőrzéseket, a nem futtatott vizsgálatot és a környezetet nevezd meg. A kiírás példájának/szintaxisának ellenőrzése nem felhasználói megoldás tesztelése.
 - Dokumentációmódosításkor ellenőrizd az érintett relatív linkeket és a roadmap összhangját.
 - Ne írj felül önálló felhasználói munkát. A korábbi fejezeteket, feladatkiírásokat és naplóelőzményt őrizd meg; elavult útmutatás ne legyen párhuzamos aktuális terv.
 - Ne tegyél titkokat, valódi ügyféladatot vagy személyes jelentkezési/interjúadatot a repóba. Mintaadat legyen mesterséges.
